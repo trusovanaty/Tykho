@@ -1,3 +1,5 @@
+> **TYKHO Care — Lovable Challenge.** Project docs for Lovable are in [`docs/`](docs/) (knowledge, brief, screens, logic & data, seed, prompts, references). The design system lives here in the root and as a copy in [`design-system/`](design-system/).
+
 # TYKHO Care — Design System v2.1
 
 > Минималистичная монохромная система для TYKHO — сенсорно-дружественной записи к детскому мастеру в Одессе.
