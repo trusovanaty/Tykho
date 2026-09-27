@@ -2,6 +2,16 @@
 
 Sensory-friendly haircut booking for a solo children's stylist in Odesa — Lovable Challenge project.
 
+## Preview
+
+| Parent flow — light | Parent flow — dark |
+|---|---|
+| ![Parent flow, light theme](docs/references/01-shot-flow-light.png) | ![Parent flow, dark theme](docs/references/02-shot-flow-dark.png) |
+| **Owner — light** | **Owner — dark** |
+| ![Owner dashboard, light theme](docs/references/03-shot-owner-light.png) | ![Owner dashboard, dark theme](docs/references/04-shot-owner-dark.png) |
+| **Components** | **Colour & shape** |
+| ![Components](docs/references/05-shot-components.png) | ![Colour and shape](docs/references/06-shot-color.png) |
+
 ## Project docs
 
 Lovable reads these from the repo — prompts reference them directly.
