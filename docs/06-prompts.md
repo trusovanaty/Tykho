@@ -37,7 +37,7 @@ Create src/components/tykho/: ChoiceCard, ProgressRing, PlanCard (solid brand bl
 Support light and dark themes (prefers-color-scheme + .dark/.light) with the ThemeToggle.
 Build /styleguide showing every component in all states (default, hover, selected, disabled, loading, error) in both themes. Do not build booking screens yet.
 ```
-📎 Приложить: скриншот референса + скриншоты из `references/`.
+📎 Приложить: скриншоты из `references/` (только наша дизайн-система).
 
 ---
 

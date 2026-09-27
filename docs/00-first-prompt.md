@@ -1,6 +1,6 @@
 # Первый промпт — создание проекта в Lovable
 
-📎 Приложить картинки: `references/00-style-reference.webp`, `01-shot-flow-light.png`, `05-shot-components.png`.
+📎 Приложить картинки: `references/01-shot-flow-light.png`, `03-shot-owner-light.png`, `05-shot-components.png` — это скриншоты нашей собственной дизайн-системы.
 
 ```text
 Create a new app called TYKHO Care — a mobile-first booking web app for a solo sensory-friendly children's hairstylist in Odesa. In this first step set up ONLY the design system and a styleguide. No booking screens, no backend yet.
@@ -14,7 +14,7 @@ Stack: React + Vite + TypeScript + Tailwind + shadcn/ui + lucide-react.
 If you can't open the links, use these values: font Manrope (300 for display and numbers, 400–600 for UI); light bg #F4F9FE with gradient #EAF3FD→#F4F9FE and 3 soft blue radial orbs; card #FFFFFF; text #13182B; secondary #5C6680; soft blue #EAF3FD (text #213F88); mid blue #C8DCF7; interactive blue #3563CF; solid blue #3F6BD6 with white text; primary button dark ink #13182B; error #B8475A. Dark theme: bg #0A1022, card #121A30, text #EAF1FB, secondary #A3AEC7, interactive #A3C1F0, soft #16223F, primary button #EAF1FB with #0A1022 text. Glass: white 58% (.glass) / 78% (.glass-strong) + blur 24 + saturate 140% + 1px white inner edge; dark glass rgb(26 36 64 / .52).
 Never use hex or default Tailwind colours in components — only these tokens.
 
-2. STYLE (see attached reference): minimalist, calm, premium. ONE hue — blue in tonal steps — plus ink. Shape carries meaning. Frosted glass cards over soft sky orbs, soft diffused shadows, no card borders.
+2. STYLE (see the attached screenshots of our design system): minimalist, calm, premium. ONE hue — blue in tonal steps — plus ink. Shape carries meaning. Frosted glass cards over soft sky orbs, soft diffused shadows, no card borders.
 - Buttons & inputs: 56px pills. Primary button = dark ink pill, one per screen.
 - Icon buttons: 48px glass circles. Date chips: 56px circles, selected = dark.
 - Cards radius 32; choice & slot cards radius 24, min height 64.

@@ -14,7 +14,7 @@ Lovable reads these from the repo — prompts reference them directly.
 | [`docs/04-logic-and-data.md`](docs/04-logic-and-data.md) | Data model, RLS, recommendation rules, slot filter, automations |
 | [`docs/05-seed-data.json`](docs/05-seed-data.json) | Demo seed (Tue 6 – Sat 10 Oct 2026, Europe/Kyiv) |
 | [`docs/06-prompts.md`](docs/06-prompts.md) | Step-by-step Lovable prompts |
-| [`docs/references/`](docs/references/) | Style reference + design-system screenshots (light/dark) |
+| [`docs/references/`](docs/references/) | Design-system screenshots (light/dark) |
 
 ## Design system v2.1
 

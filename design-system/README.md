@@ -177,7 +177,7 @@ min-height 64, radius 24, label 17/500, hint 15 muted. `role="checkbox"` / `radi
 
 ### 4.7 DateChip
 
-Круг 56, число 17/600 + день 11 muted. Selected — `primary` (тёмный круг), недоступный — только контур. Лента дат горизонтальная, как в референсе.
+Круг 56, число 17/600 + день 11 muted. Selected — `primary` (тёмный круг), недоступный — только контур. Лента дат горизонтальная.
 
 ### 4.8 Badge & Chip — пилюли
 
@@ -231,7 +231,7 @@ Surface radius 32, заголовок **30/300** «Mila, 6», строки 52px:
 
 ## 5. Иконки
 
-lucide-react, **stroke 1.5** (тоньше — как в референсе), 14 · 16 · 20. Звук `Volume2` · тишина `VolumeX` · прикосновения `Hand` · зеркало `FlipHorizontal2` · ножницы `Scissors` · выезд `House` · свет `SunDim` · без разговоров `MessageCircleOff` · планшет `Tablet` · игрушка `Heart` · на коленях `Users` · перерывы `Pause` · нет гостей `UserX` · время `Clock` · календарь `CalendarDays` · внимание `Bell` · готово `CircleCheck`.
+lucide-react, **stroke 1.5** (тонкая линия), 14 · 16 · 20. Звук `Volume2` · тишина `VolumeX` · прикосновения `Hand` · зеркало `FlipHorizontal2` · ножницы `Scissors` · выезд `House` · свет `SunDim` · без разговоров `MessageCircleOff` · планшет `Tablet` · игрушка `Heart` · на коленях `Users` · перерывы `Pause` · нет гостей `UserX` · время `Clock` · календарь `CalendarDays` · внимание `Bell` · готово `CircleCheck`.
 
 ---
 
@@ -300,5 +300,5 @@ Rules: one filled button per parent screen, in a glass sticky bar on mobile. Eve
 ## 10. Changelog
 
 - **v2.1 · 27.09.2026** — гласморфизм: два уровня стекла, светлая кромка, небесные сферы на фоне, fallback для reduced-transparency.
-- **v2.0 · 27.09.2026** — полный редизайн по референсу: монохромный синий, форма важнее цвета, Manrope light, пилюли/круги, стекло на градиенте, DotMatrix, ProgressRing, DateChip; светлая и тёмная темы; архив v1 — в `../design-system/tokens.v1.json`.
+- **v2.0 · 27.09.2026** — полный редизайн: монохромный синий, форма важнее цвета, Manrope light, пилюли/круги, стекло на градиенте, DotMatrix, ProgressRing, DateChip; светлая и тёмная темы; архив v1 — в `../design-system/tokens.v1.json`.
 - v1.0–1.4 — пастельные палитры (teal → cobalt + tints), см. `../design-system/tokens.v1.json`.
