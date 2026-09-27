@@ -1,0 +1,407 @@
+{
+  "_about": "TYKHO Care demo seed. Timezone Europe/Kyiv (+03:00 in October 2026). Demo 'today' = Tue 6 Oct 2026. Mila's booking is NOT seeded — it is created live in the demo flow (see demo_state_after_parent_flow).",
+  "business": {
+    "name": "TYKHO Care",
+    "owner": "Anya Koval",
+    "bio": "11 years in hair, 4 with children who find salons hard. One chair, one child at a time.",
+    "studio_address": "12 Henuezka St, Arcadia, Odesa",
+    "studio_hint": "the door with the green bench",
+    "home_zone": [
+      "arcadia",
+      "tairova",
+      "fontanka"
+    ],
+    "timezone": "Europe/Kyiv",
+    "currency": "UAH"
+  },
+  "visit_types": [
+    {
+      "slug": "meet-greet",
+      "name": "Meet & Greet",
+      "duration_min": 20,
+      "buffer_min": 10,
+      "price_uah": 250,
+      "location": "studio",
+      "quiet_only": false,
+      "note": "Counts toward the first haircut"
+    },
+    {
+      "slug": "quiet-first",
+      "name": "Quiet First Cut",
+      "duration_min": 60,
+      "buffer_min": 15,
+      "price_uah": 850,
+      "location": "studio",
+      "quiet_only": true
+    },
+    {
+      "slug": "home-visit",
+      "name": "Home Visit Cut",
+      "duration_min": 60,
+      "buffer_min": 15,
+      "price_uah": 1150,
+      "location": "home",
+      "quiet_only": false
+    },
+    {
+      "slug": "calm-regular",
+      "name": "Calm Regular",
+      "duration_min": 45,
+      "buffer_min": 0,
+      "price_uah": 650,
+      "location": "studio",
+      "quiet_only": false
+    }
+  ],
+  "availability": [
+    {
+      "weekday": "tue",
+      "start": "09:00",
+      "end": "10:45",
+      "kind": "quiet"
+    },
+    {
+      "weekday": "tue",
+      "start": "10:45",
+      "end": "16:00",
+      "kind": "regular"
+    },
+    {
+      "weekday": "wed",
+      "start": "09:00",
+      "end": "10:45",
+      "kind": "quiet"
+    },
+    {
+      "weekday": "wed",
+      "start": "10:45",
+      "end": "16:00",
+      "kind": "regular"
+    },
+    {
+      "weekday": "thu",
+      "start": "10:00",
+      "end": "15:00",
+      "kind": "home",
+      "area": "arcadia"
+    },
+    {
+      "weekday": "fri",
+      "start": "10:00",
+      "end": "15:00",
+      "kind": "home",
+      "area": "tairova"
+    },
+    {
+      "weekday": "fri",
+      "start": "15:00",
+      "end": "17:00",
+      "kind": "home",
+      "area": "fontanka"
+    },
+    {
+      "weekday": "sat",
+      "start": "10:00",
+      "end": "15:00",
+      "kind": "regular"
+    }
+  ],
+  "families": [
+    {
+      "key": "iryna",
+      "parent_name": "Iryna K.",
+      "email": "iryna.demo@example.com",
+      "phone": "+380 67 000 0001"
+    },
+    {
+      "key": "olha",
+      "parent_name": "Olha M.",
+      "email": "olha.demo@example.com",
+      "phone": "+380 67 000 0002"
+    },
+    {
+      "key": "kateryna",
+      "parent_name": "Kateryna S.",
+      "email": "kateryna.demo@example.com",
+      "phone": "+380 67 000 0003"
+    },
+    {
+      "key": "maria",
+      "parent_name": "Maria D.",
+      "email": "maria.demo@example.com",
+      "phone": "+380 67 000 0004"
+    },
+    {
+      "key": "yulia",
+      "parent_name": "Yulia P.",
+      "email": "yulia.demo@example.com",
+      "phone": "+380 67 000 0005"
+    },
+    {
+      "key": "natalia",
+      "parent_name": "Natalia R.",
+      "email": "natalia.demo@example.com",
+      "phone": "+380 67 000 0006"
+    },
+    {
+      "key": "svitlana",
+      "parent_name": "Svitlana V.",
+      "email": "svitlana.demo@example.com",
+      "phone": "+380 67 000 0007"
+    }
+  ],
+  "children": [
+    {
+      "key": "mila",
+      "family": "iryna",
+      "first_name": "Mila",
+      "age": 6,
+      "care_profile": {
+        "triggers": [
+          "sound",
+          "mirror"
+        ],
+        "last_cut": "never_salon",
+        "tools": "scissors_only",
+        "calmest_place": "either",
+        "area": "arcadia",
+        "settles_with": [
+          "tablet",
+          "toy",
+          "dim_lights",
+          "quiet"
+        ],
+        "notes": "She likes to hold her bunny. Please say what you'll do before touching."
+      },
+      "_note": "Demo parent — answers are entered live in the flow; these are the expected answers. Result: Quiet First Cut (sound + mirror + never_salon)."
+    },
+    {
+      "key": "timur",
+      "family": "olha",
+      "first_name": "Timur",
+      "age": 8,
+      "care_profile": {
+        "triggers": [
+          "waiting"
+        ],
+        "last_cut": "fine",
+        "tools": "scissors_only",
+        "calmest_place": "studio",
+        "settles_with": [
+          "tablet",
+          "breaks"
+        ],
+        "notes": "Breaks every 10 minutes."
+      }
+    },
+    {
+      "key": "sofia",
+      "family": "kateryna",
+      "first_name": "Sofia",
+      "age": 4,
+      "care_profile": {
+        "triggers": [
+          "new_places",
+          "touch"
+        ],
+        "last_cut": "never_salon",
+        "tools": "not_sure",
+        "calmest_place": "studio",
+        "settles_with": [
+          "lap",
+          "toy"
+        ],
+        "notes": "First time out. Sits on mum's lap."
+      }
+    },
+    {
+      "key": "danylo",
+      "family": "maria",
+      "first_name": "Danylo",
+      "age": 7,
+      "care_profile": {
+        "triggers": [
+          "sound"
+        ],
+        "last_cut": "fine",
+        "tools": "quiet_clippers_ok",
+        "calmest_place": "studio",
+        "settles_with": [
+          "tablet"
+        ]
+      }
+    },
+    {
+      "key": "mark",
+      "family": "yulia",
+      "first_name": "Mark",
+      "age": 7,
+      "care_profile": {
+        "triggers": [
+          "sound"
+        ],
+        "last_cut": "fine",
+        "tools": "scissors_only",
+        "calmest_place": "studio",
+        "settles_with": [
+          "quiet"
+        ]
+      }
+    },
+    {
+      "key": "ella",
+      "family": "natalia",
+      "first_name": "Ella",
+      "age": 5,
+      "care_profile": {
+        "triggers": [
+          "sound",
+          "cape"
+        ],
+        "last_cut": "hard_ok",
+        "tools": "scissors_only",
+        "calmest_place": "studio",
+        "settles_with": [
+          "toy",
+          "breaks"
+        ]
+      }
+    },
+    {
+      "key": "artem",
+      "family": "svitlana",
+      "first_name": "Artem",
+      "age": 9,
+      "care_profile": {
+        "triggers": [
+          "new_places"
+        ],
+        "last_cut": "hard_ok",
+        "tools": "any",
+        "calmest_place": "home",
+        "area": "tairova",
+        "settles_with": [
+          "tablet"
+        ]
+      }
+    }
+  ],
+  "bookings": [
+    {
+      "child": "timur",
+      "visit_type": "calm-regular",
+      "starts_at": "2026-10-06T11:00:00+03:00",
+      "status": "confirmed",
+      "_owner_view": "Not confirmed — reconfirm pending → Needs attention"
+    },
+    {
+      "child": "sofia",
+      "visit_type": "meet-greet",
+      "starts_at": "2026-10-06T13:00:00+03:00",
+      "status": "reconfirmed"
+    },
+    {
+      "child": "danylo",
+      "visit_type": "calm-regular",
+      "starts_at": "2026-10-06T15:00:00+03:00",
+      "status": "cancelled",
+      "cancelled_at": "2026-10-06T08:12:00+03:00",
+      "reason": "Tough morning"
+    },
+    {
+      "child": "ella",
+      "visit_type": "quiet-first",
+      "starts_at": "2026-10-07T09:45:00+03:00",
+      "status": "confirmed"
+    },
+    {
+      "child": "artem",
+      "visit_type": "home-visit",
+      "starts_at": "2026-10-09T11:00:00+03:00",
+      "status": "confirmed"
+    },
+    {
+      "child": "timur",
+      "visit_type": "calm-regular",
+      "starts_at": "2026-09-22T11:00:00+03:00",
+      "status": "completed",
+      "_history": true
+    },
+    {
+      "child": "mark",
+      "visit_type": "calm-regular",
+      "starts_at": "2026-09-19T12:00:00+03:00",
+      "status": "completed",
+      "_history": true
+    }
+  ],
+  "waitlist_entries": [
+    {
+      "child": "mark",
+      "visit_type": "calm-regular",
+      "status": "offered",
+      "offered_slot": "2026-10-06T15:00:00+03:00",
+      "offer_expires_at": "2026-10-06T10:12:00+03:00"
+    },
+    {
+      "child": "ella",
+      "visit_type": "quiet-first",
+      "status": "waiting"
+    },
+    {
+      "child": "artem",
+      "visit_type": "home-visit",
+      "area": "tairova",
+      "status": "waiting"
+    }
+  ],
+  "expected_slots_for_mila": [
+    {
+      "starts_at": "2026-10-06T09:30:00+03:00",
+      "visit_type": "quiet-first",
+      "badges": [
+        "Quiet hours",
+        "No other guests"
+      ],
+      "reason": "First visit of the day — calmest studio",
+      "best": true
+    },
+    {
+      "starts_at": "2026-10-07T09:00:00+03:00",
+      "visit_type": "quiet-first",
+      "badges": [
+        "Quiet hours",
+        "No other guests"
+      ],
+      "reason": "Quiet morning, 15-min buffer after"
+    },
+    {
+      "starts_at": "2026-10-08T11:00:00+03:00",
+      "visit_type": "home-visit",
+      "badges": [
+        "Home visit",
+        "Arcadia"
+      ],
+      "reason": "Anya is nearby that day"
+    }
+  ],
+  "demo_state_after_parent_flow": {
+    "booking": {
+      "child": "mila",
+      "visit_type": "quiet-first",
+      "starts_at": "2026-10-06T09:30:00+03:00",
+      "status": "confirmed"
+    },
+    "owner_today": "Tuesday, 6 October · 4 visits · 1 needs you",
+    "handled_this_week": {
+      "bookings_without_message": 14,
+      "dms_saved": "~3 h",
+      "slots_refilled": 2,
+      "care_questions_asked_twice": 0
+    }
+  },
+  "owner_demo_account": {
+    "email": "anya.demo@tykho.test",
+    "_note": "Create in Lovable Cloud Auth; set the password there — never commit it."
+  }
+}
