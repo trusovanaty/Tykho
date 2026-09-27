@@ -65,7 +65,7 @@ Returning child with a `completed` booking whose after-visit note is "went well"
 
 1. Build candidate slots for the next 14 days from `availability` in 15-minute steps.
 2. Keep slots where the visit type is allowed: Quiet First Cut → `kind = quiet`; Home Visit → `kind = home` and `area` matches; Meet & Greet / Calm Regular → `quiet` or `regular`.
-   **Alternative:** if `calmest_place = either` and `area` is in the home-visit zone, also include `home` slots in that area as **Home Visit Cut** (the slot card shows "Home visit · {Area} · ₴1,150"). This is how Mila gets "Thu 8 Oct · Anya is nearby that day".
+   **Alternative:** if `calmest_place = either` and `area` is in the home-visit zone, also include `home` slots in that area as **Home Visit Cut** (the slot card shows "Home visit · {Area} · ₴1,150") and **always reserve one of the 3 places for the best home slot**. This is how Mila gets "Thu 8 Oct 10:00 · Anya is nearby that day".
 3. Remove overlaps with existing non-cancelled bookings including their `buffer_until`; the new slot must also fit its own buffer.
 4. Remove slots starting < 12 hours from now.
 5. Score: quiet-hours slot +3 · first slot of the day +2 · no booking in the previous 30 min +1 · earlier date +1 per day closer (max +3).

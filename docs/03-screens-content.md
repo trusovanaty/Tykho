@@ -18,7 +18,7 @@
 | **Бизнес** | TYKHO Care — sensory-friendly haircuts for children |
 | **Владелица** | Anya Koval, solo stylist, 11 years in hair, 4 years with neurodivergent kids |
 | **Локация** | Quiet studio in Arcadia, Odesa + home visits in Arcadia, Fontanka road, Tairova |
-| **Расписание** | Tue–Wed: studio, 09:00–10:30 = **quiet hours** (no other guests) · Thu–Fri: home visits (grouped by district) · Sat: studio, regular visits |
+| **Расписание** | Tue–Wed: studio, 09:00–10:45 = **quiet hours** (no other guests) · Thu–Fri: home visits (grouped by district) · Sat: studio, regular visits |
 | **Quirks** | 70% of inquiries come via Instagram DMs · high-support visits need 15-min buffer · some kids need a meet & greet first · last-minute cancellations are "honest" (bad morning) → she doesn't charge, but the slot burns |
 | **One-liner** | *TYKHO turns a parent's worried "can we come to you?" into a sensory-matched, confirmed haircut — without a single scheduling message for the stylist.* |
 
@@ -248,9 +248,9 @@ TYKHO Care
 
 | Slot | Бейджи | Why |
 |---|---|---|
-| **Tue, 6 Oct · 09:30** ★ Best match | `Quiet hours` `No other guests` | First visit of the day — calmest studio |
+| **Tue, 6 Oct · 09:00** ★ Best match | `Quiet hours` `No other guests` | First visit of the day — calmest studio |
 | **Wed, 7 Oct · 09:00** | `Quiet hours` `No other guests` | Quiet morning, 15-min buffer after |
-| **Thu, 8 Oct · 11:00** | `Home visit` `Arcadia` | Anya is nearby that day |
+| **Thu, 8 Oct · 10:00** | `Home visit` `Arcadia` | Anya is nearby that day |
 
 > *None of these work?* **Join the waitlist** — we'll message you when a quiet time opens.
 
@@ -266,7 +266,7 @@ TYKHO Care
 **Цель:** минимум контактов + одна «мягкая» деталь для care-card.
 
 **Блоки:**
-1. Сводка: Quiet First Cut · Tue 6 Oct, 09:30 · Studio, Arcadia (Edit)
+1. Сводка: Quiet First Cut · Tue 6 Oct, 09:00 · Studio, Arcadia (Edit)
 2. Your name
 3. Phone (Viber/Telegram) **или** email — один обязательный
 4. «Anything else Anya should know?» — optional textarea с placeholder-примерами
@@ -305,7 +305,7 @@ TYKHO Care
 **Тексты:**
 
 > ✓ **You're booked.**
-> Tuesday, 6 October · 09:30 · Quiet First Cut
+> Tuesday, 6 October · 09:00 · Quiet First Cut
 > 12 Henuezka St, Arcadia · the door with the green bench
 > [ Add to calendar ] [ Manage visit ]
 
@@ -319,8 +319,8 @@ TYKHO Care
 **What happens next**
 - ✓ Confirmation sent to Iryna — *just now*
 - ✓ Anya has Mila's care-card — *just now*
-- ◷ Reminder with one-tap confirm — *Mon, 5 Oct · 09:30*
-- ◷ Visit — *Tue, 6 Oct · 09:30*
+- ◷ Reminder with one-tap confirm — *Mon, 5 Oct · 09:00*
+- ◷ Visit — *Tue, 6 Oct · 09:00*
 
 *No messages needed. If plans change, use the link in your email.*
 
@@ -333,7 +333,7 @@ TYKHO Care
 **Блоки:** visit card · 3 действия · политика одной строкой.
 
 > **Mila's visit**
-> Tue, 6 Oct · 09:30 · Quiet First Cut
+> Tue, 6 Oct · 09:00 · Quiet First Cut
 >
 > [ **Yes, we're coming** ] · [ Move to another time ] · [ Cancel visit ]
 > *Free to move or cancel up to 2 hours before. After that, just message Anya.*
@@ -398,8 +398,8 @@ TYKHO Care
 
 | Time | Child | Visit | Care summary | Status |
 |---|---|---|---|---|
-| 09:30 | **Mila, 6** · NEW | Quiet First Cut · 60 min | 🔊 Sound · Scissors only · No mirror · Dim lights | Confirmed |
-| 10:30 | — | *Buffer · 15 min* | | |
+| 09:00 | **Mila, 6** · NEW | Quiet First Cut · 60 min | 🔊 Sound · Scissors only · No mirror · Dim lights | Confirmed |
+| 10:00 | — | *Buffer · 15 min* | | |
 | 11:00 | **Timur, 8** | Calm Regular · 45 min | Breaks every 10 min · Own tablet | Not confirmed |
 | 13:00 | **Sofia, 4** | Meet & Greet · 20 min | First time out · Sits on mum's lap | Confirmed |
 | 15:00 | ~~Danylo, 7~~ | Calm Regular | *Cancelled 08:12 · Offered to waitlist → Mark, 7* | Offer sent |
@@ -421,7 +421,7 @@ TYKHO Care
 **Цель:** всё, что нужно для визита, читается за 5 секунд — без переписки и заметок.
 
 **Блоки:**
-1. Header: Mila, 6 · Quiet First Cut · Tue 6 Oct 09:30 · статус + действия (Arrived / Completed / No-show)
+1. Header: Mila, 6 · Quiet First Cut · Tue 6 Oct 09:00 · статус + действия (Arrived / Completed / No-show)
 2. **Care-card** (главный объект, можно показать на телефоне у кресла)
 3. «In Iryna's words» — свободный текст родителя
 4. Contact: Iryna · Viber · Email (кнопки, без переписки внутри)
@@ -476,20 +476,20 @@ Quiet hours · дни выездов и районы · длительность
 ## 3. Email / уведомления
 
 **E-01 · Booking confirmed → parent (P0)**
-> Subject: **Mila's visit is booked — Tue, 6 Oct at 09:30**
+> Subject: **Mila's visit is booked — Tue, 6 Oct at 09:00**
 > Hi Iryna, you're all set. Quiet First Cut · 60 min · no other guests.
 > 12 Henuezka St, Arcadia — the door with the green bench.
 > Anya already has everything you told us. No need to explain again.
 > [ What will happen — show Mila ] [ Manage visit ]
 
 **E-02 · New booking brief → owner (P1)**
-> Subject: **New: Mila, 6 · Tue 09:30 · Quiet First Cut**
+> Subject: **New: Mila, 6 · Tue 09:00 · Quiet First Cut**
 > 🔊 Sound · Scissors only · No mirror · Dim lights
 > First salon visit. Settles with her bunny.
 > [ Open care-card ]
 
 **E-03 · T-24h reconfirm → parent (P1)**
-> Subject: **Tomorrow at 09:30 — still good for Mila?**
+> Subject: **Tomorrow at 09:00 — still good for Mila?**
 > [ Yes, we're coming ] [ Move it ] [ Cancel ]
 > Tough morning tomorrow? Moving is free until 07:30.
 
@@ -509,7 +509,7 @@ Quiet hours · дни выездов и районы · длительность
 
 **Прочие дети:** Timur, 8 (Calm Regular, breaks, own tablet) · Sofia, 4 (Meet & Greet, lap) · Danylo, 7 (cancelled) · Mark, 7 (waitlist, scissors only) · Ella, 5 · Artem, 9 (home, Tairova).
 
-**Слоты:** Tue 6 Oct 09:30 / Wed 7 Oct 09:00 / Thu 8 Oct 11:00 (home, Arcadia) + занятые и «шумные» слоты Sat, чтобы было что отфильтровать.
+**Слоты:** Tue 6 Oct 09:00 / Wed 7 Oct 09:00 / Thu 8 Oct 10:00 (home, Arcadia) + занятые и «шумные» слоты Sat, чтобы было что отфильтровать.
 
 ## 5. Данные (для Build 02)
 

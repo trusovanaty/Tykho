@@ -309,12 +309,6 @@
       "reason": "Tough morning"
     },
     {
-      "child": "ella",
-      "visit_type": "quiet-first",
-      "starts_at": "2026-10-07T09:45:00+03:00",
-      "status": "confirmed"
-    },
-    {
       "child": "artem",
       "visit_type": "home-visit",
       "starts_at": "2026-10-09T11:00:00+03:00",
@@ -357,7 +351,7 @@
   ],
   "expected_slots_for_mila": [
     {
-      "starts_at": "2026-10-06T09:30:00+03:00",
+      "starts_at": "2026-10-06T09:00:00+03:00",
       "visit_type": "quiet-first",
       "badges": [
         "Quiet hours",
@@ -376,20 +370,20 @@
       "reason": "Quiet morning, 15-min buffer after"
     },
     {
-      "starts_at": "2026-10-08T11:00:00+03:00",
+      "starts_at": "2026-10-08T10:00:00+03:00",
       "visit_type": "home-visit",
       "badges": [
         "Home visit",
         "Arcadia"
       ],
-      "reason": "Anya is nearby that day"
+      "reason": "Anya is nearby that day (one place is always reserved for the best home slot)"
     }
   ],
   "demo_state_after_parent_flow": {
     "booking": {
       "child": "mila",
       "visit_type": "quiet-first",
-      "starts_at": "2026-10-06T09:30:00+03:00",
+      "starts_at": "2026-10-06T09:00:00+03:00",
       "status": "confirmed"
     },
     "owner_today": "Tuesday, 6 October · 4 visits · 1 needs you",
