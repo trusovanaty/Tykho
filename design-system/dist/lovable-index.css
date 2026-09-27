@@ -1,0 +1,262 @@
+/* TYKHO Care v2 — src/index.css for Lovable. Generated from design-system/tokens.json — do not edit by hand. */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Color — HSL channels (shadcn convention) */
+    --background: 210 83% 98%;
+    --foreground: 228 39% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 228 39% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 228 39% 12%;
+    --primary: 228 39% 12%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 226 26% 22%;
+    --primary-active: 222 61% 23%;
+    --secondary: 212 83% 95%;
+    --secondary-foreground: 228 39% 12%;
+    --muted: 212 83% 95%;
+    --muted-foreground: 223 16% 43%;
+    --subtle: 223 16% 63%;
+    --accent: 212 83% 95%;
+    --accent-foreground: 223 61% 33%;
+    --brand: 222 62% 51%;
+    --brand-hover: 223 61% 42%;
+    --brand-foreground: 0 0% 100%;
+    --brand-solid: 223 65% 54%;
+    --brand-solid-foreground: 0 0% 100%;
+    --brand-soft: 212 83% 95%;
+    --brand-soft-foreground: 223 61% 33%;
+    --brand-mid: 214 75% 88%;
+    --brand-mid-foreground: 223 61% 33%;
+    --destructive: 350 44% 50%;
+    --destructive-soft: 351 70% 96%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 215 46% 92%;
+    --border-strong: 218 30% 84%;
+    --input: 215 46% 92%;
+    --ring: 222 62% 51%;
+    --pattern: 228 39% 12%;
+    --inverse: 228 39% 12%;
+    --inverse-foreground: 210 83% 98%;
+    --visit-quiet: 214 75% 88%;
+    --visit-meet: 212 83% 95%;
+    --visit-home: 220 71% 69%;
+    --visit-regular: 215 46% 92%;
+    --radius: 1.5rem;
+
+    /* Effects */
+    --background-gradient: linear-gradient(180deg, #EAF3FD 0%, #F4F9FE 45%, #F4F9FE 100%);
+    --hero-gradient: linear-gradient(160deg, #C8DCF7 0%, #7A9FE8 100%);
+    --orbs: radial-gradient(38% 32% at 88% 8%, rgb(122 159 232 / 0.38), transparent 70%), radial-gradient(34% 30% at 6% 38%, rgb(163 193 240 / 0.45), transparent 70%), radial-gradient(42% 36% at 72% 88%, rgb(200 220 247 / 0.7), transparent 70%);
+    --glass: rgb(255 255 255 / 0.58);
+    --glass-strong: rgb(255 255 255 / 0.78);
+    --glass-border: rgb(255 255 255 / 0.7);
+    --glass-highlight: rgb(255 255 255 / 0.9);
+    --glass-blur: 24px;
+    --glass-saturate: 140%;
+    --shadow-soft: 0 8px 24px rgb(35 70 150 / 0.08);
+    --shadow-float: 0 16px 40px rgb(35 70 150 / 0.14);
+    --shadow-bar: 0 -8px 24px rgb(35 70 150 / 0.08);
+
+    /* Type, space, targets, motion, layout */
+    --text-numeral-size: 3rem;
+    --text-numeral-lh: 3.25rem;
+    --text-display-size: 2.5rem;
+    --text-display-lh: 2.75rem;
+    --text-display-size-lg: 3.5rem;
+    --text-display-lh-lg: 3.75rem;
+    --text-h1-size: 1.875rem;
+    --text-h1-lh: 2.25rem;
+    --text-h2-size: 1.375rem;
+    --text-h2-lh: 1.75rem;
+    --text-h3-size: 1.125rem;
+    --text-h3-lh: 1.5rem;
+    --text-body-size: 1.0625rem;
+    --text-body-lh: 1.625rem;
+    --text-small-size: 0.9375rem;
+    --text-small-lh: 1.375rem;
+    --text-caption-size: 0.8125rem;
+    --text-caption-lh: 1.125rem;
+    --text-display-tracking: -0.03em;
+    --text-heading-tracking: -0.02em;
+    --space-page-x: 1.25rem;
+    --space-stack-xs: 0.5rem;
+    --space-stack-sm: 0.75rem;
+    --space-stack-md: 1.5rem;
+    --space-section: 2.5rem;
+    --space-section-lg: 3.5rem;
+    --space-card: 1.25rem;
+    --space-card-lg: 1.5rem;
+    --target-min: 2.75rem;
+    --target-icon: 3rem;
+    --target-control: 3.5rem;
+    --target-choice: 4rem;
+    --motion-fast: 150ms;
+    --motion-base: 240ms;
+    --motion-reveal: 420ms;
+    --motion-ease: cubic-bezier(0.22, 0.8, 0.26, 1);
+    --layout-flow-max: 440px;
+    --layout-owner-max: 1200px;
+    --layout-measure: 60ch;
+  }
+
+  /* Dark theme — forced with .dark on <html> */
+  .dark {
+    --background: 225 55% 9%;
+    --foreground: 215 68% 95%;
+    --card: 224 45% 13%;
+    --card-foreground: 215 68% 95%;
+    --popover: 224 45% 13%;
+    --popover-foreground: 215 68% 95%;
+    --primary: 215 68% 95%;
+    --primary-foreground: 225 55% 9%;
+    --primary-hover: 0 0% 100%;
+    --primary-active: 214 75% 88%;
+    --secondary: 224 42% 18%;
+    --secondary-foreground: 215 68% 95%;
+    --muted: 224 42% 18%;
+    --muted-foreground: 222 24% 71%;
+    --subtle: 223 14% 50%;
+    --accent: 222 48% 17%;
+    --accent-foreground: 214 75% 88%;
+    --brand: 217 72% 79%;
+    --brand-hover: 214 75% 88%;
+    --brand-foreground: 225 55% 9%;
+    --brand-solid: 223 65% 54%;
+    --brand-solid-foreground: 0 0% 100%;
+    --brand-soft: 222 48% 17%;
+    --brand-soft-foreground: 214 75% 88%;
+    --brand-mid: 224 49% 23%;
+    --brand-mid-foreground: 214 75% 88%;
+    --destructive: 350 71% 80%;
+    --destructive-soft: 342 35% 17%;
+    --destructive-foreground: 225 55% 9%;
+    --border: 224 35% 23%;
+    --border-strong: 223 14% 50%;
+    --input: 224 35% 23%;
+    --ring: 217 72% 79%;
+    --pattern: 217 72% 79%;
+    --inverse: 215 68% 95%;
+    --inverse-foreground: 225 55% 9%;
+    --visit-quiet: 217 72% 79%;
+    --visit-meet: 213 79% 92%;
+    --visit-home: 223 65% 54%;
+    --visit-regular: 223 14% 50%;
+    --background-gradient: linear-gradient(180deg, #111C3A 0%, #0A1022 45%, #0A1022 100%);
+    --hero-gradient: linear-gradient(160deg, #C8DCF7 0%, #7A9FE8 100%);
+    --orbs: radial-gradient(38% 32% at 88% 8%, rgb(63 107 214 / 0.30), transparent 70%), radial-gradient(34% 30% at 6% 38%, rgb(53 99 207 / 0.20), transparent 70%), radial-gradient(42% 36% at 72% 88%, rgb(122 159 232 / 0.16), transparent 70%);
+    --glass: rgb(26 36 64 / 0.52);
+    --glass-strong: rgb(18 26 48 / 0.78);
+    --glass-border: rgb(255 255 255 / 0.08);
+    --glass-highlight: rgb(255 255 255 / 0.12);
+    --glass-blur: 24px;
+    --glass-saturate: 140%;
+    --shadow-soft: 0 8px 24px rgb(0 0 0 / 0.35);
+    --shadow-float: 0 16px 40px rgb(0 0 0 / 0.45);
+    --shadow-bar: 0 8px 24px rgb(0 0 0 / 0.35);
+    color-scheme: dark;
+  }
+}
+
+/* Dark theme — automatic, unless the user forced .light */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    --background: 225 55% 9%;
+    --foreground: 215 68% 95%;
+    --card: 224 45% 13%;
+    --card-foreground: 215 68% 95%;
+    --popover: 224 45% 13%;
+    --popover-foreground: 215 68% 95%;
+    --primary: 215 68% 95%;
+    --primary-foreground: 225 55% 9%;
+    --primary-hover: 0 0% 100%;
+    --primary-active: 214 75% 88%;
+    --secondary: 224 42% 18%;
+    --secondary-foreground: 215 68% 95%;
+    --muted: 224 42% 18%;
+    --muted-foreground: 222 24% 71%;
+    --subtle: 223 14% 50%;
+    --accent: 222 48% 17%;
+    --accent-foreground: 214 75% 88%;
+    --brand: 217 72% 79%;
+    --brand-hover: 214 75% 88%;
+    --brand-foreground: 225 55% 9%;
+    --brand-solid: 223 65% 54%;
+    --brand-solid-foreground: 0 0% 100%;
+    --brand-soft: 222 48% 17%;
+    --brand-soft-foreground: 214 75% 88%;
+    --brand-mid: 224 49% 23%;
+    --brand-mid-foreground: 214 75% 88%;
+    --destructive: 350 71% 80%;
+    --destructive-soft: 342 35% 17%;
+    --destructive-foreground: 225 55% 9%;
+    --border: 224 35% 23%;
+    --border-strong: 223 14% 50%;
+    --input: 224 35% 23%;
+    --ring: 217 72% 79%;
+    --pattern: 217 72% 79%;
+    --inverse: 215 68% 95%;
+    --inverse-foreground: 225 55% 9%;
+    --visit-quiet: 217 72% 79%;
+    --visit-meet: 213 79% 92%;
+    --visit-home: 223 65% 54%;
+    --visit-regular: 223 14% 50%;
+    --background-gradient: linear-gradient(180deg, #111C3A 0%, #0A1022 45%, #0A1022 100%);
+    --hero-gradient: linear-gradient(160deg, #C8DCF7 0%, #7A9FE8 100%);
+    --orbs: radial-gradient(38% 32% at 88% 8%, rgb(63 107 214 / 0.30), transparent 70%), radial-gradient(34% 30% at 6% 38%, rgb(53 99 207 / 0.20), transparent 70%), radial-gradient(42% 36% at 72% 88%, rgb(122 159 232 / 0.16), transparent 70%);
+    --glass: rgb(26 36 64 / 0.52);
+    --glass-strong: rgb(18 26 48 / 0.78);
+    --glass-border: rgb(255 255 255 / 0.08);
+    --glass-highlight: rgb(255 255 255 / 0.12);
+    --glass-blur: 24px;
+    --glass-saturate: 140%;
+    --shadow-soft: 0 8px 24px rgb(0 0 0 / 0.35);
+    --shadow-float: 0 16px 40px rgb(0 0 0 / 0.45);
+    --shadow-bar: 0 8px 24px rgb(0 0 0 / 0.35);
+    color-scheme: dark;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    @apply text-foreground font-sans antialiased;
+    background: hsl(var(--background));
+    background-image: var(--orbs), var(--background-gradient);
+    background-attachment: fixed;
+    font-size: var(--text-body-size);
+    line-height: var(--text-body-lh);
+    font-feature-settings: 'tnum' 1;
+  }
+  h1, h2, .font-display {
+    font-weight: 300;
+    letter-spacing: var(--text-heading-tracking);
+  }
+  :focus-visible { @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  /* Frosted glass: translucent fill + blur + 1px light edge. Only over the orb/gradient background. */
+  .glass, .glass-strong {
+    background: var(--glass);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+    backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+    box-shadow: inset 0 0 0 1px var(--glass-border), inset 0 1px 0 var(--glass-highlight), var(--shadow-soft);
+  }
+  .glass-strong { background: var(--glass-strong); }
+  .bg-orbs { background-image: var(--orbs), var(--background-gradient); }
+  @media (prefers-reduced-transparency: reduce) {
+    .glass, .glass-strong { background: hsl(var(--card)); -webkit-backdrop-filter: none; backdrop-filter: none; }
+  }
+}
